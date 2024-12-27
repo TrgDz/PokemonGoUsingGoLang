@@ -555,7 +555,7 @@ func attackEnemy(attackingTeam, defendingTeam []Pokemon, attackerIndex, defender
 	// } else {
 	atkValue, _ := strconv.Atoi(attackingTeam[attackerIndex].Stats["Attack"])
 	defValue, _ := strconv.Atoi(defPoke.Stats["Defense"])
-	damage = atkValue*50 - defValue
+	damage = atkValue - defValue
 	// }
 
 	// Ensure minimum damage

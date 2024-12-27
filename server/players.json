@@ -1,0 +1,198 @@
+[
+  {
+    "username": "bnt",
+    "password": "123",
+    "pokeBalls": [
+      {
+        "id": "1",
+        "name": "Bulbasaur",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "Attack": "49",
+          "Defense": "49",
+          "HP": "45",
+          "Sp Atk": "65",
+          "Sp Def": "65",
+          "Speed": "45"
+        },
+        "exp": "64"
+      },
+      {
+        "id": "8",
+        "name": "Wartortle",
+        "types": [
+          "water"
+        ],
+        "stats": {
+          "Attack": "63",
+          "Defense": "80",
+          "HP": "59",
+          "Sp Atk": "65",
+          "Sp Def": "80",
+          "Speed": "58"
+        },
+        "exp": "142"
+      },
+      {
+        "id": "12",
+        "name": "Butterfree",
+        "types": [
+          "bug",
+          "flying"
+        ],
+        "stats": {
+          "Attack": "45",
+          "Defense": "50",
+          "HP": "60",
+          "Sp Atk": "90",
+          "Sp Def": "80",
+          "Speed": "70"
+        },
+        "exp": "198"
+      },
+      {
+        "id": "131",
+        "name": "Lapras",
+        "types": [
+          "ice",
+          "water"
+        ],
+        "stats": {
+          "Attack": "85",
+          "Defense": "80",
+          "HP": "130",
+          "Sp Atk": "85",
+          "Sp Def": "95",
+          "Speed": "60"
+        },
+        "exp": "187"
+      },
+      {
+        "id": "123",
+        "name": "Scyther",
+        "types": [
+          "bug",
+          "flying"
+        ],
+        "stats": {
+          "Attack": "110",
+          "Defense": "80",
+          "HP": "70",
+          "Sp Atk": "55",
+          "Sp Def": "80",
+          "Speed": "105"
+        },
+        "exp": "100"
+      },
+      {
+        "id": "92",
+        "name": "Gastly",
+        "types": [
+          "ghost",
+          "poison"
+        ],
+        "stats": {
+          "Attack": "35",
+          "Defense": "30",
+          "HP": "30",
+          "Sp Atk": "100",
+          "Sp Def": "35",
+          "Speed": "80"
+        },
+        "exp": "62"
+      }
+    ]
+  },
+  {
+    "username": "trantung",
+    "password": "123",
+    "pokeBalls": [
+      {
+        "id": "2",
+        "name": "Ivysaur",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "stats": {
+          "Attack": "62",
+          "Defense": "63",
+          "HP": "60",
+          "Sp Atk": "80",
+          "Sp Def": "80",
+          "Speed": "60"
+        },
+        "exp": "142"
+      },
+      {
+        "id": "18",
+        "name": "Pidgeot",
+        "types": [
+          "flying",
+          "normal"
+        ],
+        "stats": {
+          "Attack": "80",
+          "Defense": "75",
+          "HP": "83",
+          "Sp Atk": "70",
+          "Sp Def": "70",
+          "Speed": "101"
+        },
+        "exp": "240"
+      },
+      {
+        "id": "24",
+        "name": "Arbok",
+        "types": [
+          "poison"
+        ],
+        "stats": {
+          "Attack": "85",
+          "Defense": "69",
+          "HP": "60",
+          "Sp Atk": "65",
+          "Sp Def": "79",
+          "Speed": "80"
+        },
+        "exp": "157"
+      },
+      {
+        "id": "32",
+        "name": "Nidoran ♂",
+        "types": [
+          "poison"
+        ],
+        "stats": {
+          "Attack": "57",
+          "Defense": "40",
+          "HP": "46",
+          "Sp Atk": "40",
+          "Sp Def": "40",
+          "Speed": "50"
+        },
+        "exp": "55"
+      },
+      {
+        "id": "79",
+        "name": "Slowpoke",
+        "types": [
+          "psychic",
+          "water"
+        ],
+        "stats": {
+          "Attack": "65",
+          "Defense": "65",
+          "HP": "90",
+          "Sp Atk": "40",
+          "Sp Def": "40",
+          "Speed": "15"
+        },
+        "exp": "63"
+      }
+    ]
+  }
+]

@@ -63,40 +63,6 @@ func main() {
 		fmt.Printf("Crawled data for Pokemon ID %d\n", i)
 	}
 
-	// Create a new collector
-	c := colly.NewCollector(
-		colly.AllowedDomains("bulbapedia.bulbagarden.net"),
-	)
-
-	// Create a map to hold the EXP data
-	expMap := make(map[string]string)
-
-	// On every row in the table, except for the header
-	c.OnHTML("table.roundy tbody tr:not(:first-child)", func(e *colly.HTMLElement) {
-		id := strings.Trim(e.ChildText("td:nth-child(1)"), "\n ")
-		exp := strings.Trim(e.ChildText("td:nth-child(4)"), "\n ")
-		id = strings.TrimLeft(id, "0") // Remove leading zeros
-
-		if id != "" && exp != "" {
-			expMap[id] = exp
-		}
-	})
-
-	// Handle errors
-	c.OnError(func(_ *colly.Response, err error) {
-		log.Println("Something went wrong:", err)
-	})
-
-	// Visit the page
-	c.Visit("https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_effort_value_yield_(Generation_IX)")
-
-	// Merge EXP data with existing Pokémon data
-	for i := range pokemons {
-		if exp, found := expMap[pokemons[i].ID]; found {
-			pokemons[i].EXP = exp
-		}
-	}
-
 	// Save to JSON file
 	file, err := os.Create("pokedex.json")
 	if err != nil {
